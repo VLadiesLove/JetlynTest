@@ -1,0 +1,50 @@
+*{
+    margin: 2px;
+}
+.preloader{
+    text-align: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    border-bottom:2px solid black;
+    height: 130px;
+    
+}
+
+.name{
+    align-self: center;
+    width: 200px;
+    text-align: left;
+}
+.name:hover{
+    cursor:pointer;
+}
+
+.message{
+    color:pink;
+}
+
+.error{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.Link{
+    text-decoration: none;
+    text-align: center;
+    color: #777;
+    font-size: 50px;
+}
+
+.Link:hover{
+    cursor: pointer;
+}
+
+.link{
+    text-align: center;
+    border-bottom: 2px solid #777;
+}
